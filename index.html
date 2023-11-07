@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Média</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-ceter aling-items-center vh-100">
+            
+            <!-- <h3>Configurando o bootstrap</h3> -->
+
+            <!--Nota 1-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="nota1" class="form-label fw-bold text-dark">Nota 1</label>
+                            <select name="TXTnota1" id="TXTnota1" class="form-select">
+                                <option value="0">0</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Nota 2-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="nota2" class="form-label fw-bold text-dark">Nota 2</label>
+                            <select name="TXTnota2" id="TXTnota2" class="form-select">
+                                <option value="0">0</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Nota 3-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="nota3" class="form-label fw-bold text-dark">Nota 3</label>
+                            <select name="TXTnota3" id="TXTnota3" class="form-select">
+                                <option value="0">0</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Nota 4-->
+                    <div class="row">
+                        <div class="col">
+                            <label for="nota4" class="form-label fw-bold text-dark">Nota 4</label>
+                            <select name="TXTnota4" id="TXTnota4" class="form-select">
+                                <option value="0">0</option>
+                                <option value="01">01</option>
+                                <option value="02">02</option>
+                                <option value="03">03</option>
+                                <option value="04">04</option>
+                                <option value="05">05</option>
+                                <option value="06">06</option>
+                                <option value="07">07</option>
+                                <option value="08">08</option>
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--Média-->
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label fw-bold text-dark">Média: </label>
+                            <label class="form-label fw-bold text-dark" name="lblmedia" id="lblmedia">-</label>
+                    </div>
+
+                    <!--Situação-->
+                    <div class="row">
+                        <div class="col">
+                            <label class="form-label fw-bold text-dark">Situação: </label>
+                            <label class="form-label fw-bold text-dark" name="lblmsituacao" id="lblmsituacao"> </label>
+                    </div>
+
+                    <!--Botão de Converter e Botão de Limpar-->
+
+                    <div class="row">
+
+                        <!--Botão Converter-->
+                        <div class="col">
+                            <button class="btn btn-primary mt-2" name="btncalcular" id="btncalcular" onclick="calcular()">
+                                Calcular
+                            </button>
+                            <!--Botão Limpar-->
+                        <div class="col">
+                            <button class="btn btn-danger mt-2" name="btnlimpar" id="btnlimpar" onclick="limpar()">
+                                Limpar
+                            </button>
+                            </div>
+                        </div>
+                    </form> 
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+<script src="./media.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+</html>
